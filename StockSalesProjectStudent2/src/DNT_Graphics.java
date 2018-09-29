@@ -34,7 +34,7 @@ public class DNT_Graphics extends JPanel implements Runnable{
 	}
 	public void paintComponent(Graphics g){
 		Graphics2D g2 = (Graphics2D) g;
-		//g2.scale(WIDTH, HEIGHT);
+		g2.scale(WIDTH/2, HEIGHT/2);
 		Font font = new Font("Verdana", Font.BOLD, 60);
 	    g.setFont(font);
 		Color[] graphcolors = {Color.RED, Color.GREEN, Color.BLUE};

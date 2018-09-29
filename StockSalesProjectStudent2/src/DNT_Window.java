@@ -37,6 +37,6 @@ public class DNT_Window extends JFrame{
 	}
 	public static void main(String[] args) {
 		s.begin();
-		DNT_Window w = new DNT_Window();
+		new DNT_Window();
 	}
 }

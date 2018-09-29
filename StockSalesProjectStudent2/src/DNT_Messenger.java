@@ -13,14 +13,14 @@ public class DNT_Messenger {
                                                                    
 	*/
 	
-	public Map<String, PointList> points = new HashMap();
+	public Map<String, PointList> points = new HashMap<String, PointList>();
 	
 	public int StockPrice = 5;
 	
 	private static DNT_Messenger instance = null;
 	
 	class PointList{
-		ArrayList<Integer> listingPoints = new ArrayList();
+		ArrayList<Integer> listingPoints = new ArrayList<Integer>();
 		PointList(){
 			
 		}
